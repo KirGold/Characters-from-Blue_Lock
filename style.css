@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url(./img/Blue\ lock\ logo.jpeg);
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    transition: 0.5s;
+}
+.main_box{
+    display: flex;
+    justify-content: space-between;
+}
+                                                                    /*Reo*/
+.card {
+    margin-top: 100px;
+    width: 500px;
+    height: 650px;
+    margin: 10px 0 0 100px;
+    border: 17px inset #282727;
+    border-radius: 20px;
+    background-color: #a9a7aa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+.card_titel {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase ;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+}
+.card_info {
+    background-color: #7e7e7e43;
+    color: #e3e3e3;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Teko', sans-serif;
+    transition: 0.5s;
+}
+.card_img-reo {
+    width: 300px;
+    height: 300px ;
+    border: 3px solid #000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px  #464444;
+    transition: 0.5s;
+    background: url(./img/「\ 𝐑𝐄𝐎\ 𝐌𝐈𝐊𝐀𝐆𝐄\ 」.jpeg);
+    background-size: cover;
+}
+.card_box {
+    display: flex;/*девает все в линию */
+    justify-content: space-between;/*движет элемент в линии */
+    align-items: center;/* движет линию */
+    text-align: center ;
+    height: 200px;
+    width: 400px;
+    transition: 0.5s;
+}
+table, td, th {
+    border: 2px solid ;
+    transition: 0.5s;
+}
+tr
+{
+    background-color:rgb(116, 116, 116);
+    color:rgb(47, 47, 47);
+    transition: 0.5s;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 25px;
+    transition: 0.5s;
+    }
+.card_box-table {
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+.card_box-table_titel {
+    font-family: 'Teko', sans-serif;
+    background-color: #5b585860;
+    transition: 0.5s;
+}
+.card_box-table_text {
+    font-family: 'Teko', sans-serif;
+    background-color: #857f7f8b;
+    transition: 0.5s;
+}
+
+
+                                                /*Color Reo*/
+.card:hover{
+    background-color: #6c3b84;
+    box-shadow: 10px 10px 20px  #311841b0;
+}
+.card:hover .card_titel{
+    text-shadow: 5px 2px 5px #3c2655;
+    color: #c69de3;
+    letter-spacing: 5px;
+}
+.card:hover .card_info{
+    color: #9d66c7;
+    background-color: #72429771;
+}
+.card:hover .card_img-reo{
+    background: url(./img/BL_Icon_Reo_Mikage.webp);
+    background-size: cover;
+    border: 3px solid #180a45;
+    box-shadow: 10px 10px 20px  #250838;
+}
+.card:hover tr{
+    background-color:rgb(162, 75, 186);
+    color:rgb(67, 20, 87);
+    transition: 0.3s;
+}
+                                                    /*Nagi*/
+.card_2 {
+    width: 500px;
+    height: 650px;
+    margin: 10px 100px 0 0px;
+    border: 17px inset #282727;
+    border-radius: 20px;
+    background-color: #a9a7aa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+.card_titel {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase ;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+}
+.card_info {
+    background-color: #7e7e7e43;
+    color: #e3e3e3;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Teko', sans-serif;
+    transition: 0.5s;
+}
+.card_img-nagi {
+    width: 300px;
+    height: 300px ;
+    border: 3px solid #000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px  #464444;
+    transition: 0.5s;
+    background: url(./img/download\ \(1\).jpeg);
+    background-size: cover;
+}
+.card_box {
+    display: flex;/*девает все в линию */
+    justify-content: space-between;/*движет элемент в линии */
+    align-items: center;/* движет линию */
+    text-align: center ;
+    height: 200px;
+    width: 400px;
+    transition: 0.5s;
+}
+table, td, th {
+    border: 2px solid ;
+    transition: 0.5s;
+}
+tr
+{
+    background-color:rgb(116, 116, 116);
+    color:rgb(47, 47, 47);
+    transition: 0.5s;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 25px;
+    transition: 0.5s;
+    }
+.card_box-table {
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+.card_box-table_titel {
+    font-family: 'Teko', sans-serif;
+    background-color: #5b585860;
+    transition: 0.5s;
+}
+.card_box-table_text {
+    font-family: 'Teko', sans-serif;
+    background-color: #857f7f8b;
+    transition: 0.5s;
+}
+
+                                                    /*Color Nagi*/
+.card_2:hover{
+    background-color: #4d7894;
+    box-shadow: 10px 10px 20px  #1e4572b0;
+}
+.card_2:hover .card_titel{
+    text-shadow: 5px 2px 5px #2a5269;
+    color: #7fb3e0;
+    letter-spacing: 5px;
+}
+.card_2:hover .card_info{
+    color: #6695c7;
+    background-color: #3e6e928a;
+}
+.card_2:hover .card_img-nagi{
+    background: url(./img/Seishiro\ Nagi.jpeg);
+    background-size: cover;
+    border: 3px solid #0a2645;
+    box-shadow: 10px 10px 20px  #081e38;
+}
+.card_2:hover tr{
+    background-color:rgba(85, 192, 208, 0.711);
+    color:rgb(20, 57, 87);
+    transition: 0.3s;
+}
+                                                            /*Chigiri*/
+.card_3 {
+    width: 500px;
+    height: 650px;
+    margin: 40px 500px;
+    border: 17px inset #282727;
+    border-radius: 20px;
+    background-color: #a9a7aa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+.card_titel {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase ;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+}
+.card_info {
+    background-color: #7e7e7e43;
+    color: #e3e3e3;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Teko', sans-serif;
+    transition: 0.5s;
+}
+.card_img-chigiri {
+    width: 300px;
+    height: 300px ;
+    border: 3px solid #000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px  #464444;
+    transition: 0.5s;
+    background: url(./img/download\ \(2\).jpeg);
+    background-size: cover;
+}
+.card_box {
+    display: flex;/*девает все в линию */
+    justify-content: space-between;/*движет элемент в линии */
+    align-items: center;/* движет линию */
+    text-align: center ;
+    height: 200px;
+    width: 400px;
+    transition: 0.5s;
+}
+table, td, th {
+    border: 2px solid ;
+    transition: 0.5s;
+}
+tr
+{
+    background-color:rgb(116, 116, 116);
+    color:rgb(47, 47, 47);
+    transition: 0.5s;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 25px;
+    transition: 0.5s;
+    }
+.card_box-table {
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+.card_box-table_titel {
+    font-family: 'Teko', sans-serif;
+    background-color: #5b585860;
+    transition: 0.5s;
+}
+.card_box-table_text {
+    font-family: 'Teko', sans-serif;
+    background-color: #857f7f8b;
+    transition: 0.5s;
+}
+                                                /*Color Chigiri*/
+    .card_3:hover{
+    background-color: #923f61;
+    box-shadow: 10px 10px 20px  #721e47b0;
+    }
+    .card_3:hover .card_titel{
+    text-shadow: 5px 2px 5px #692a40;
+    color: #e07f8d;
+    letter-spacing: 3px;
+    }
+    .card_3:hover .card_info{
+    color: #c7668b;
+    background-color: #bd427765;
+    }
+    .card_3:hover .card_img-chigiri{
+        background: url(./img/CHIGIRI\ BLUE\ LOCK.jpeg);
+    background-size: cover;
+    border: 3px solid #450a2a;
+    box-shadow: 10px 10px 20px  #38081a;
+    }
+    .card_3:hover tr{
+    background-color:rgba(208, 85, 134, 0.711);
+    color:rgb(87, 20, 52);
+    transition: 0.3s;
+    }
